@@ -1,0 +1,49 @@
+body{
+    text-align: center;
+}
+
+.menu1 {
+    position: fixed;
+    z-index: 10;
+    background: white;
+    width: 100%;
+    top: 0px;
+    margin-top: 0px;
+}
+
+.links {
+    color: black;
+    font-family: fantasy;
+    font-size: 20px;
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+}
+
+.links:hover {
+    background-color: deepskyblue;
+    font-size: 23;
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    text-shadow: 2px 2px skyblue;
+}
+
+#myCarousel {
+    background-color: red;
+}
+
+#myCarousel img {
+    height: 300px;
+    margin-top: 35px;
+}
+
+.carousel-inner p {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: white;
+    font-size: 20px;
+}
